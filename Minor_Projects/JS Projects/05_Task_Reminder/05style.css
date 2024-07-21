@@ -1,0 +1,113 @@
+body {
+    background-image: url(https://images8.alphacoders.com/132/1325725.png);
+    border: 5px solid;
+    background-color: rgb(77, 74, 74);
+    color: whitesmoke;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#container {
+    background-color: #000000;
+    border-radius: 10px;
+    padding: 10px;
+    width: 400px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+ul.taskadder {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul.taskadder li {
+    background-color: #4b4a4a;
+    border-radius: 5px;
+    margin: 10px 0;
+    padding: 10px;
+    text-align: left;
+}
+
+form {
+    margin-top: 20px;
+}
+
+input.additem {
+    width: 70%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    background-color: #dedede;
+}
+
+button.additem {
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #555;
+    color: whitesmoke;
+    cursor: pointer;
+}
+
+button.additem:hover {
+    background-color: #ffffff;
+    color: #05ff15;
+}
+
+button.additem:hover {
+    background-color: #666;
+}
+
+#buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+button.edit, button.remove {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #555;
+    color: whitesmoke;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button.remove:hover {
+    background-color: #666;
+    color: red;
+}
+
+button.edit:hover{
+    background-color:#666 ;
+    color: yellow;
+}
+
+h4 {
+    position: absolute;
+    bottom: 1%;
+    right: 2%;
+    font-style: italic;
+    background-color: rgb(38, 38, 38);
+    padding: 10px;
+    border-radius: 7px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+
+} 
+

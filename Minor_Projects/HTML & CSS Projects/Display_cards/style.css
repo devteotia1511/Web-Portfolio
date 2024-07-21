@@ -1,0 +1,88 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+html, body{
+    height:auto;
+    width: auto;
+}
+
+h1{
+    color: red;
+    display: flex;
+    margin: 20px;
+    align-items: center;
+    justify-content: center;
+    text-decoration-line: underline;
+    font-style: italic;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+}
+
+.cards{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    height: 300px;
+    width: 230px;
+    border: 1px solid brown;
+    border-radius: 4%;
+}
+
+#card1{
+    z-index: 4;
+    transform: translate(-50%,-50%) rotate(0deg);
+    background-color: bisque;
+}
+
+#card2{
+    z-index: 3;
+    transform: translate(-50%,-50%) rotate(-8deg);
+    background-color: rebeccapurple;
+}
+
+#card2:hover{
+    z-index: 5;
+}
+
+#card3{
+    z-index: 2;
+    transform: translate(-50%,-50%) rotate(-16deg);
+    background-color: blue;
+}
+
+#card3:hover{
+    z-index: 5;
+}
+
+#card4{
+    z-index: 1;
+    transform: translate(-50%,-50%) rotate(-24deg);
+    background-color: red;
+}
+
+#card4:hover{
+    z-index: 5;
+}
+
+h3{
+    position: absolute;
+    bottom: 1%;
+    right: 1%;
+    font-size: larger;
+    font-style: italic;
+    padding-bottom: 10px;
+    padding-right: 10px;
+}
+
+img{
+    height: 100%;
+    width: 100%;
+    object-fit:cover;
+    border-radius: 4%;
+}

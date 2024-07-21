@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Number Guessing Game</title>
+    <link rel="stylesheet" href="04style.css">
+</head>
+<body style="background-color:#000000; color:#fff;">
+    
+    <div id="wrapper">
+      <h2 style="background-color: rgb(92, 195, 195); color: rgb(255, 255, 255); font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Number Guessing Game!</h2>
+    <p>Try and guess a random number between 1 and 100.</p>
+    <p>You have 10 attempts to guess the right number.</p>
+    </br>
+        <form class="form">
+            <label2 for ="guessField" id="guess"><span style="color: rgb(92, 195, 195); font-family: Times New Roman, Times, serif";>Guess a Number</span></label2>
+            <input type="number" id="guessField" class="guessField">
+            <input type="submit" id="subt" value="Submit Guess" class="guessSubmit" style="color: green">
+        </form>
+
+        <div class="resultParas">
+            <p >Previous Guesses: <span class="guesses"></span></p>
+            <p >Guesses Remaining: <span class="remaining">10</span></p>
+            <p class="lowOrHi"></p>
+        </div>
+    </div>
+    <h4><i>~ Dev Teotia</i></h4>
+    <script src="04script.js"></script>
+</body>
+</html>
